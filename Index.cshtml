@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<head>
+    <link href="~/LAYER style/Index.css" rel="stylesheet" />
+    
+</head>
+
+<form autocomplete="off">
+    <div class="autocomplete">
+        <input type="text" id="myInputValue" />
+    </div>
+    <div class="autocomplete">
+        <input type="text" id="myInput" placeholder="country" />
+    </div>
+    <input type="submit" />
+    <br />
+    <br />
+    <div class="autocomplete">
+        <input type="text" id="myItem" placeholder="item" />
+    </div>
+    <input type="submit" />
+</form>
+
+@section scripts{
+    <script src="~/LAYER behavior/Index.js"></script>    
+}
+
+
+
